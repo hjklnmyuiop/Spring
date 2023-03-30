@@ -1,4 +1,4 @@
-package com.atguigu.spring6.config;
+package com.atguigu.spring6.tx.config;
 
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.ComponentScan;

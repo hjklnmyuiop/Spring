@@ -1,6 +1,6 @@
 package com.atguigu.spring6.resource;
 
-import com.atguigu.spring6.config.SpringConfig;
+import com.atguigu.spring6.tx.config.SpringConfig;
 import com.atguigu.spring6.resource.controller.UserController;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
