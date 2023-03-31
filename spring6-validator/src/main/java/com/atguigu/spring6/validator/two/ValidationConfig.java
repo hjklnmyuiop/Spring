@@ -10,8 +10,9 @@ import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
  * @Date: 2023/3/30 15:41
  */
 @Configuration
-@ComponentScan("com.atguigu.spring6.validator.two")
+@ComponentScan("com.atguigu.spring6.validator")
 public class ValidationConfig {
+
     @Bean
     public LocalValidatorFactoryBean validator() {
         return new LocalValidatorFactoryBean();
